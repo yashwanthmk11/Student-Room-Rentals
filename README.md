@@ -63,7 +63,8 @@ aws s3 sync client/dist/ s3://YOUR_BUCKET --delete
 
 ## Notes
 - SPA routing: ensure S3/CloudFront serves `index.html` for unknown routes.
-- Keep secrets in env files; `.gitignore` already excludes common env patterns.,,,,,,,,,.............
+- Keep secrets in env files; `.gitignore` already excludes common env patterns.,,,,,,,,,
+
 
 
 
