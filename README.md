@@ -1,4 +1,4 @@
-.......# Campus Rooms / Student Room Rentals
+...# Campus Rooms / Student Room Rentals
 
 Full‑stack app for listing, searching, and saving student room rentals. Frontend is a Vite + React + TypeScript SPA; backend is Node.js/Express with MongoDB.
 
@@ -64,6 +64,7 @@ aws s3 sync client/dist/ s3://YOUR_BUCKET --delete
 ## Notes
 - SPA routing: ensure S3/CloudFront serves `index.html` for unknown routes.
 - Keep secrets in env files; `.gitignore` already excludes common env patterns.
+
 
 
 
